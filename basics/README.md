@@ -26,11 +26,21 @@ Strings are surrounded by double quotes `""`.
 "Hello World"
 ```
 
+**Concatenation**
 You can join them together with `<>` operator.
 
 ```bash
 iex > "Hello " <> "World"
 "Hello World"
+```
+
+**Interpolation**
+We can perform string interpolation with `#{...}`
+
+```bash
+iex > name = "Dillon"
+iex > "Hello #{name}"
+"Hello Dillon"ß
 ```
 
 ### Integers
